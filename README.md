@@ -4,8 +4,7 @@
 #Инсталација
 1. Се превзема фаилот и се прикачува на сервер
 2. Се модифицира фаилот на крајот со што се додава соодветниот RSS канал
-  пр. [code]<?php
-// output RSS feed to HTML
+<?php
+
 output_rss_feed('http://mms.mk/feed', 10, true, false, 200);
 ?>
-[/code]
